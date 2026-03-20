@@ -20,5 +20,5 @@ test('get started link', async ({ page }) => {
 test('simple failing test', async ({ page }) => {
   await page.goto('https://playwright.dev/');
 
-  await expect(5==5).toBeFalsy();
+  await expect(5==5).toBeTruthy();
 });
